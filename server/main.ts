@@ -1,7 +1,7 @@
 import express from "express";
 import { CollabServer } from "rushlight-server";
 
-import { loadCheckpoint, saveCheckpoint } from "./db.ts"
+import { loadCheckpoint, saveCheckpoint } from "./db.ts";
 
 const port = Number(process.env.PORT || 8080);
 
