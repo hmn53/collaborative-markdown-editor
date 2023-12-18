@@ -8,7 +8,7 @@
     "dev:client": "vite",
     "dev:server": "nodemon -w server --esm server/main.ts",
     "build": "vite build",
-    "start": "ts-node --esm --transpile-only server/main.ts"
+    "start": "tsx server/main.ts"
   },
   "dependencies": {
     "@codemirror/autocomplete": "^6.9.1",
@@ -27,6 +27,7 @@
     "rushlight": "^0.0.2",
     "rushlight-server": "^0.0.2",
     "ts-node": "^10.9.1",
+    "tsx": "^4.6.2",
     "unified": "^10.1.2"
   },
   "devDependencies": {
